@@ -15,7 +15,7 @@ p {
 
 .navbar {
     background-color: #050505;
-    overflow: hidden;
+    overflow: visible;
 
     color: white;
 
@@ -51,9 +51,15 @@ p {
     justify-content: center;
     align-items: center;
 }
-
+.socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .socials-link {
     color: white;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -63,6 +69,32 @@ p {
 
 .icon-large {
     font-size: 2rem; /* Adjust the size as needed */
+}
+
+.menu {
+    margin-bottom: 0;
+}
+
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border: 1px solid #333;
+    padding: 10px 20px;
+}
+.dropdown-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: none;
 }
 button {
     background-color: #008CBA;

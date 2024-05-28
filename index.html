@@ -11,9 +11,13 @@
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="insta">
+        <div class="socials">
             <a href="https://www.instagram.com/3waymirrorband/?hl=en" class="socials-link"> 
                 <i class="bi bi-instagram icon-large"></i> 
+            </a>
+
+            <a class ="socials-link" href="https://www.facebook.com/p/Three-Way-Mirror-100086424291043/?paipv=0&eav=AfZG_WLnw4EB1vlxxWcl1u_YzCkZ1cPaVut072tCXHAqnRIxgTdtUHySl7GO-bg5imU&_rdr">
+                <i class="bi bi-facebook icon-large"></i>
             </a>
         </div>
         
@@ -21,10 +25,20 @@
         <div class="band-logo-container">
             <img src="assets/band-logo-1.PNG" alt="Logo" class="logo">
         </div>
-        <div class="menu">menu</div>
+
+        <div class="menu" onclick="toggleMenu()">
+            <i class="bi bi-list icon-large"></i>
+        </div>
+
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="#">Home</a>
+            <a href="#">Info</a>
+            <a href="#">Photos</a>
+            <a href="#">Videos</a>
+        </div>
     </nav>
 
-    <button id="myButton">Click me</button>
+    <button id="myButton">Test Button Click me</button>
 
     <script src="scripts.js"></script>
 </body>
