@@ -96,21 +96,3 @@ p {
 .dropdown-menu a:last-child {
     border-bottom: none;
 }
-button {
-    background-color: #008CBA;
-    justify-content: center;
-
-    margin-top: 200px;
-    margin-left: 500px;
-
-    color: white;
-    padding: 10px 20px;
-
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #005f73;
-}
