@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif, Cinzel Decorative;
+    background-color: #242424;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.navbar {
+    background-color: #050505;
+    overflow: visible;
+
+    color: white;
+
+    padding: 0px;
+    margin-top: 0px;
+    width:100%;
+    top: 0;
+    margin-left: 0%;
+    position: fixed;
+    height: 110px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar div {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+}
+
+.logo {
+    height: auto;
+    width: 300px;
+}
+
+.band-logo-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials-link {
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.socials-link:hover {
+    color: #200a88;
+}
+
+.icon-large {
+    font-size: 2rem; /* Adjust the size as needed */
+}
+
+.menu {
+    margin-bottom: 0;
+    right: 10px;
+}
+
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    position: fixed;
+    top: 100px;
+    right: 60px;
+    height: flex;
+    width: 80%;
+    max-width: 300px;
+
+    /* border: 1px solid #333; */
+    padding: 10px 20px;
+
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 100px 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+}
+.dropdown-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+.cinzel-decorative-regular {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cinzel-decorative-bold {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cinzel-decorative-black {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  

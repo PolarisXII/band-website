@@ -1,0 +1,15 @@
+{
+  "name": "3-way-mirror",
+  "version": "1.0.0",
+  "description": "website for sydney progressive metal band 3 way mirror",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sylvia Wang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
